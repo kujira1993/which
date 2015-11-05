@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*===============================================
+●tablet.css 画面の横幅が768pxまで
+===============================================*/
+@media screen and (max-width: 768px){
+	img{
+		max-width: 100%;
+		height: auto;
+		width /***/:auto;　
+	}
+	#container{
+		width:100%;
+	}
+
+
+	.tab-right-content-inner {
+		margin: 0 auto;
+	}
+	
+		.pc-box-conBox {
+		height: 200px;
+		width: 200px;
+		background:#68BCBC;
+	}
+
+}
