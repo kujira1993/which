@@ -29,12 +29,12 @@
 
 	.pc-left-nav {
 		width: 240px;
-		height: 100vh;
+		height: 100%;
 		padding: 10px;
 		box-sizing: border-box;
 		background-color: #fff;
 		box-shadow: 0 0 2px #f5f5f5;
-		position: fixed;
+		position: absolute;
 		top: 50px;
 		left: 0;
 	}
@@ -48,12 +48,13 @@
 		border-bottom: 1px solid #9e9e9e;
 	}
 
-	.pc-left-nav-inner li a {
+	.nav-item {
 		color: #0F4375;
 		font-weight: bold;
+		display: block;
 	}
 
-	.pc-left-nav-inner li a:hover {
+	.nav-item:hover {
 		opacity: 0.8;
 	}
 
@@ -66,20 +67,21 @@
 	.pc-right-content {
 		width: 100%;
 		height: 160vh;
-		padding: 50px 0 0 240px;
+		padding: 50px 0 0 250px;
 		background-color: #dcdcdc;
 		box-sizing: border-box;
 	}
 
 	.pc-right-content-inner {
-		margin: 0 auto;
+		margin: 30px 0 0 30px;
 	}
 
 
 	.pc-box-conBox {
 		height: 200px;
 		width: 200px;
-		background:#68BCBC;
+		margin: 0 10px 10px 0;
+		background:#000;
 	}
 
 }
